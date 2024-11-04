@@ -2,9 +2,11 @@
 def multiplyMatrices(n, matrix1, matrix2):
     matrix = []
     row = 0
+    # The while loop keeps the program on the same row of matrix1 until that row has been multiplied by every column of matrix2
     while row < n:
         column = 0
-        multipliedRow = []
+        multipliedRow = [] # This is the working row of the product matrix.
+        # This while loop keeps the program on the same column of matrix2 until it has been multiplied by the entire working row of matrix1.
         while column < n:
             currentProduct = 0
             for i in range(n):
