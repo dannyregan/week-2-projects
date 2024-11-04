@@ -1,3 +1,5 @@
+__author__ = "Danny Regan"
+
 # Accepts an array, a, and intenger, i. Returns the count of the number of elements in the array that are divisible by the integer.
 def isDivisble(a, i):
     count = 0

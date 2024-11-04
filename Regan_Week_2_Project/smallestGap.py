@@ -1,3 +1,5 @@
+__author__ = "Danny Regan"
+
 # Accepts an array, a. Finds the distance between all possible pairs of numbers in the array and returns the smallest distance.
 def smallestGap(a):
     smallestDistance = None
